@@ -495,6 +495,7 @@ def write_objc_header_module_map(
     """
     actions.write(
         content = ('module "{module_name}" {{\n' +
+                    '  export *' +
                    '  header "../{header_name}"\n' +
                    "}}\n").format(
             header_name = objc_header.basename,
