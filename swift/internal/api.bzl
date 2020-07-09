@@ -60,6 +60,7 @@ load(
     "SWIFT_FEATURE_OPT_USES_WMO",
     "SWIFT_FEATURE_USE_GLOBAL_MODULE_CACHE",
     "SWIFT_FEATURE_USE_RESPONSE_FILES",
+    "SWIFT_FEATURE_CACHEABLE_SWIFTMODULES"
 )
 load(":providers.bzl", "SwiftInfo", "SwiftToolchainInfo")
 
