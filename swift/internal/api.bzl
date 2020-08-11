@@ -292,7 +292,7 @@ def _compilation_mode_copts(feature_configuration):
     if is_dbg or wants_full_debug_info:
         flags.append("-g")
     elif is_fastbuild:
-        flags.append("-gline-tables-only")
+        flags.append("-gnone")
 
     return flags
 
